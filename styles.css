@@ -11,7 +11,7 @@
     margin: 0;
 }
 
-.navbar {
+.navbar { 
     width: 100vw;
     height: 54px;
     display: flex;
@@ -253,6 +253,42 @@ main {
     display: flex;
     align-items: center;
 }
+
+@media (max-width: 1000px) {
+    .sidebar {
+      display: none;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-inner {
+        width: 100%;
+    }
+  }
+
+  @media (max-width: 640px) {
+      .navbar-inner {
+          padding: 0;
+      }
+      .content {
+          width: 100vw;
+          padding: 0;
+      }
+      .content .posts {
+         width: 100%;
+         margin-right: 0px;
+      }
+      .insta-post {
+          width: 100%;
+      }
+      .stories-container {
+          width: 100%;
+      }
+      .search-bar {
+          display: none;
+      }
+  }
 
 .profile-details {
     display: flex;
