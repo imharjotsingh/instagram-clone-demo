@@ -265,5 +265,9 @@ main {
     font-size: 12px;
     color: #b0b0b0;
     margin-left: 10px;
+}
 
+.dot {
+    position: relative;
+    bottom: 5px;
 }
